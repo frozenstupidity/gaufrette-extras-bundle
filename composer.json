@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "symfony/symfony": ">=2.1.0",
+        "symfony/symfony": ">=2.7.7",
         "kphoen/gaufrette-extras": "~1.0"
     },
     "autoload": {
