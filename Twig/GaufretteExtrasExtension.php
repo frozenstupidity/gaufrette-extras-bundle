@@ -15,7 +15,7 @@ class GaufretteExtrasExtension extends \Twig_Extension
     public function getFilters()
     {
         return array(
-            'resolve' => new \Twig_Filter_Method($this, 'resolve'),
+            new \Twig_SimpleFilter('resolve', array($this, 'resolve')),
         );
     }
 
